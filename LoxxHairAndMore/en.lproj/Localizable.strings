@@ -1,0 +1,52 @@
+"short" = "Short";
+"long" = "Long";
+
+"home" = "Home";
+"information" = "Information";
+"hours of operation" = "Hours of operation";
+"tariffs" = "Tariffs";
+"make an appointment" = "Make an appointment";
+
+// on-screen displayed strings
+
+"link cannot open" = "Cannot display address";
+
+"link cannot open explained" = "Unable to show address in a Maps app or webbrowser. Restart the app and try again later";
+
+"cannot display page" = "Cannot display page";
+
+"cannot display page explained" = "Unable to show Facebook page in app or webbrowser. Restart the app and try again later";
+
+"ok" = "Ok";
+
+// alert dialog standard strings
+
+"send email error title" = "Unable to open an e-mail app";
+
+"cant retrieve business hours title" = "Cannot retrieve business hours";
+
+"unable to connect to internet" = "No internet connection";
+
+"internal database error" = "Internal database error";
+
+// alert dialog custom strings titles
+
+"unable to connect to internet description" = "No network connection was detected, the most recently available data will be shown.\n\nData will update automatically when a connection is reastablished.";
+
+"cant retrieve business hours description" = "Most recently available data will be shown";
+
+"send email error message" = "Your device is unable to send any e-mails at this moment, please try again later";
+
+"internal database cannot be opened error description" = "The app's internal database could not be opened due to an unknown reason. If you experience any issues, please try restarting the app";
+
+"internal database cannot be opened file path unavailable description" = "The file path of the app's internal database is unavailable due to an unknown reason. If you experience any issues, please try restarting the app";
+
+// alert dialog custom strings messages
+
+"apple maps url" = "http:////maps.apple.com//?address=1708,Burgemeester+Brokxlaan,Tilburg,Netherlands";
+
+"google maps url" = "https:////www.google.com//maps//place//Burgemeester+Brokxlaan+1708,+5041SH+Tilburg";
+
+"facebook url" = "https:////www.facebook.com//Karinimagestyling";
+
+// URL strings

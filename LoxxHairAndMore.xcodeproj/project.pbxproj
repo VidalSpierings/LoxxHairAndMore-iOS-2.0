@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AA342D1FC85755DF85C73F0 /* Pods_LoxxHairAndMore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7DA460936F99DC24794E14 /* Pods_LoxxHairAndMore.framework */; };
+		7169B645E844E42746709987 /* Pods_LoxxHairAndMore_LoxxHairAndMoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5827E71536C71BF72526FC88 /* Pods_LoxxHairAndMore_LoxxHairAndMoreUITests.framework */; };
+		A80859CE2A44C84B0011DC25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80859CD2A44C84B0011DC25 /* LaunchScreen.storyboard */; };
+		A8189BB82A42FCDD002B7FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8189BB62A42FCDD002B7FFD /* Main.storyboard */; };
+		A8189BBA2A42FCE2002B7FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8189BB92A42FCE2002B7FFD /* Assets.xcassets */; };
+		A8189BC82A42FCE2002B7FFD /* LoxxHairAndMoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8189BC72A42FCE2002B7FFD /* LoxxHairAndMoreTests.swift */; };
+		A8189BD22A42FCE2002B7FFD /* LoxxHairAndMoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8189BD12A42FCE2002B7FFD /* LoxxHairAndMoreUITests.swift */; };
+		A8189BD42A42FCE2002B7FFD /* LoxxHairAndMoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8189BD32A42FCE2002B7FFD /* LoxxHairAndMoreUITestsLaunchTests.swift */; };
+		A8BE6A442A45E4AA00E965A8 /* AppointmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A412A45E4AA00E965A8 /* AppointmentModel.swift */; };
+		A8BE6A452A45E4AA00E965A8 /* AppointmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A422A45E4AA00E965A8 /* AppointmentViewModel.swift */; };
+		A8BE6A462A45E4AA00E965A8 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A432A45E4AA00E965A8 /* AppointmentViewController.swift */; };
+		A8BE6A4A2A45E53D00E965A8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A482A45E53D00E965A8 /* NetworkManager.swift */; };
+		A8BE6A4B2A45E53D00E965A8 /* NetworkManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A492A45E53D00E965A8 /* NetworkManagerModel.swift */; };
+		A8BE6A522A45E59E00E965A8 /* DateFormatterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A4D2A45E59E00E965A8 /* DateFormatterHelper.swift */; };
+		A8BE6A532A45E59E00E965A8 /* MyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A4E2A45E59E00E965A8 /* MyLogger.swift */; };
+		A8BE6A542A45E59E00E965A8 /* JSONNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A4F2A45E59E00E965A8 /* JSONNode.swift */; };
+		A8BE6A552A45E59E00E965A8 /* MyErrorAlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A502A45E59E00E965A8 /* MyErrorAlertBuilder.swift */; };
+		A8BE6A562A45E59E00E965A8 /* MyLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A512A45E59E00E965A8 /* MyLocalizer.swift */; };
+		A8BE6A5C2A45E5DB00E965A8 /* MyUIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A582A45E5DA00E965A8 /* MyUIConstants.swift */; };
+		A8BE6A5D2A45E5DB00E965A8 /* MyCallUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A592A45E5DA00E965A8 /* MyCallUtil.swift */; };
+		A8BE6A5E2A45E5DB00E965A8 /* MyTypeExtensionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A5A2A45E5DA00E965A8 /* MyTypeExtensionFunctions.swift */; };
+		A8BE6A5F2A45E5DB00E965A8 /* MyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A5B2A45E5DA00E965A8 /* MyConstants.swift */; };
+		A8BE6A642A45E66800E965A8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A612A45E66800E965A8 /* HomeViewModel.swift */; };
+		A8BE6A652A45E66800E965A8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A622A45E66800E965A8 /* HomeViewController.swift */; };
+		A8BE6A662A45E66800E965A8 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A632A45E66800E965A8 /* HomeModel.swift */; };
+		A8BE6A722A45E71C00E965A8 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A6F2A45E71C00E965A8 /* InformationViewController.swift */; };
+		A8BE6A732A45E71C00E965A8 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A702A45E71C00E965A8 /* InformationModel.swift */; };
+		A8BE6A742A45E71C00E965A8 /* InformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A712A45E71C00E965A8 /* InformationViewModel.swift */; };
+		A8BE6A7E2A45E76E00E965A8 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A792A45E76E00E965A8 /* MenuViewModel.swift */; };
+		A8BE6A7F2A45E76E00E965A8 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A7A2A45E76E00E965A8 /* MenuModel.swift */; };
+		A8BE6A802A45E76E00E965A8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A7B2A45E76E00E965A8 /* MenuViewController.swift */; };
+		A8BE6A872A45E85F00E965A8 /* TariffsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A822A45E85F00E965A8 /* TariffsModel.swift */; };
+		A8BE6A882A45E85F00E965A8 /* TariffsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A832A45E85F00E965A8 /* TariffsViewController.swift */; };
+		A8BE6A8A2A45E85F00E965A8 /* TariffsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A862A45E85F00E965A8 /* TariffsViewModel.swift */; };
+		A8BE6A912A45EC9000E965A8 /* HoursOfOperationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A8E2A45EC9000E965A8 /* HoursOfOperationViewModel.swift */; };
+		A8BE6A922A45EC9000E965A8 /* HoursOfOperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A8F2A45EC9000E965A8 /* HoursOfOperationViewController.swift */; };
+		A8BE6A932A45EC9000E965A8 /* HoursOfOperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A902A45EC9000E965A8 /* HoursOfOperationModel.swift */; };
+		A8BE6A972A45ED3100E965A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A952A45ED3100E965A8 /* AppDelegate.swift */; };
+		A8BE6A982A45ED3100E965A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A962A45ED3100E965A8 /* SceneDelegate.swift */; };
+		A8BE6A9C2A45EE0400E965A8 /* MenuItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A9A2A45EE0400E965A8 /* MenuItemListView.swift */; };
+		A8BE6A9D2A45EE0400E965A8 /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A9B2A45EE0400E965A8 /* MenuItemTableViewCell.swift */; };
+		A8BE6AA02A45EEEE00E965A8 /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6A9F2A45EEEE00E965A8 /* ServiceTableViewCell.swift */; };
+		A8BE6AA32A45FB2300E965A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6AA12A45FB2300E965A8 /* ContentView.swift */; };
+		A8BE6AA62A45FBC000E965A8 /* LoxxHairAndMoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6AA52A45FBC000E965A8 /* LoxxHairAndMoreApp.swift */; };
+		A8BE6AAB2A461E9000E965A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8BE6AAD2A461E9000E965A8 /* Localizable.strings */; };
+		A8BE6AB02A46206200E965A8 /* DateFormatterHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE6AAF2A46206200E965A8 /* DateFormatterHelperTests.swift */; };
+		F2FF474D97C3ADDE146AD6C1 /* Pods_LoxxHairAndMoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C2A3A1962A126582634486 /* Pods_LoxxHairAndMoreTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8189BC42A42FCE2002B7FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8189BA52A42FCDD002B7FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8189BAC2A42FCDD002B7FFD;
+			remoteInfo = LoxxHairAndMore;
+		};
+		A8189BCE2A42FCE2002B7FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8189BA52A42FCDD002B7FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8189BAC2A42FCDD002B7FFD;
+			remoteInfo = LoxxHairAndMore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C2A3A1962A126582634486 /* Pods_LoxxHairAndMoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoxxHairAndMoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7DA460936F99DC24794E14 /* Pods_LoxxHairAndMore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoxxHairAndMore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F7FB31C8C86B3DE898AFAE /* Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.release.xcconfig"; path = "Target Support Files/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5827E71536C71BF72526FC88 /* Pods_LoxxHairAndMore_LoxxHairAndMoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoxxHairAndMore_LoxxHairAndMoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805F1C4F17EF7B4334D87783 /* Pods-LoxxHairAndMore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoxxHairAndMore.debug.xcconfig"; path = "Target Support Files/Pods-LoxxHairAndMore/Pods-LoxxHairAndMore.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF67D8C9D7358094CC487A2 /* Pods-LoxxHairAndMoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoxxHairAndMoreTests.release.xcconfig"; path = "Target Support Files/Pods-LoxxHairAndMoreTests/Pods-LoxxHairAndMoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EB1BCC76CCC1D62DE1EEF61 /* Pods-LoxxHairAndMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoxxHairAndMore.release.xcconfig"; path = "Target Support Files/Pods-LoxxHairAndMore/Pods-LoxxHairAndMore.release.xcconfig"; sourceTree = "<group>"; };
+		A80859CD2A44C84B0011DC25 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8189BAD2A42FCDD002B7FFD /* LoxxHairAndMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoxxHairAndMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8189BB72A42FCDD002B7FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8189BB92A42FCE2002B7FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8189BBE2A42FCE2002B7FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8189BC32A42FCE2002B7FFD /* LoxxHairAndMoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoxxHairAndMoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8189BC72A42FCE2002B7FFD /* LoxxHairAndMoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoxxHairAndMoreTests.swift; sourceTree = "<group>"; };
+		A8189BCD2A42FCE2002B7FFD /* LoxxHairAndMoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoxxHairAndMoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8189BD12A42FCE2002B7FFD /* LoxxHairAndMoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoxxHairAndMoreUITests.swift; sourceTree = "<group>"; };
+		A8189BD32A42FCE2002B7FFD /* LoxxHairAndMoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoxxHairAndMoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8BE6A412A45E4AA00E965A8 /* AppointmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentModel.swift; sourceTree = "<group>"; };
+		A8BE6A422A45E4AA00E965A8 /* AppointmentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentViewModel.swift; sourceTree = "<group>"; };
+		A8BE6A432A45E4AA00E965A8 /* AppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		A8BE6A482A45E53D00E965A8 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A8BE6A492A45E53D00E965A8 /* NetworkManagerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerModel.swift; sourceTree = "<group>"; };
+		A8BE6A4D2A45E59E00E965A8 /* DateFormatterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterHelper.swift; sourceTree = "<group>"; };
+		A8BE6A4E2A45E59E00E965A8 /* MyLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLogger.swift; sourceTree = "<group>"; };
+		A8BE6A4F2A45E59E00E965A8 /* JSONNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONNode.swift; sourceTree = "<group>"; };
+		A8BE6A502A45E59E00E965A8 /* MyErrorAlertBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyErrorAlertBuilder.swift; sourceTree = "<group>"; };
+		A8BE6A512A45E59E00E965A8 /* MyLocalizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocalizer.swift; sourceTree = "<group>"; };
+		A8BE6A582A45E5DA00E965A8 /* MyUIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUIConstants.swift; sourceTree = "<group>"; };
+		A8BE6A592A45E5DA00E965A8 /* MyCallUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCallUtil.swift; sourceTree = "<group>"; };
+		A8BE6A5A2A45E5DA00E965A8 /* MyTypeExtensionFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTypeExtensionFunctions.swift; sourceTree = "<group>"; };
+		A8BE6A5B2A45E5DA00E965A8 /* MyConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConstants.swift; sourceTree = "<group>"; };
+		A8BE6A612A45E66800E965A8 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A8BE6A622A45E66800E965A8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A8BE6A632A45E66800E965A8 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		A8BE6A6F2A45E71C00E965A8 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		A8BE6A702A45E71C00E965A8 /* InformationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
+		A8BE6A712A45E71C00E965A8 /* InformationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewModel.swift; sourceTree = "<group>"; };
+		A8BE6A792A45E76E00E965A8 /* MenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		A8BE6A7A2A45E76E00E965A8 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		A8BE6A7B2A45E76E00E965A8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A8BE6A822A45E85F00E965A8 /* TariffsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TariffsModel.swift; sourceTree = "<group>"; };
+		A8BE6A832A45E85F00E965A8 /* TariffsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TariffsViewController.swift; sourceTree = "<group>"; };
+		A8BE6A862A45E85F00E965A8 /* TariffsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TariffsViewModel.swift; sourceTree = "<group>"; };
+		A8BE6A8E2A45EC9000E965A8 /* HoursOfOperationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursOfOperationViewModel.swift; sourceTree = "<group>"; };
+		A8BE6A8F2A45EC9000E965A8 /* HoursOfOperationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursOfOperationViewController.swift; sourceTree = "<group>"; };
+		A8BE6A902A45EC9000E965A8 /* HoursOfOperationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursOfOperationModel.swift; sourceTree = "<group>"; };
+		A8BE6A952A45ED3100E965A8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8BE6A962A45ED3100E965A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8BE6A9A2A45EE0400E965A8 /* MenuItemListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemListView.swift; sourceTree = "<group>"; };
+		A8BE6A9B2A45EE0400E965A8 /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
+		A8BE6A9F2A45EEEE00E965A8 /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		A8BE6AA12A45FB2300E965A8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8BE6AA52A45FBC000E965A8 /* LoxxHairAndMoreApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoxxHairAndMoreApp.swift; sourceTree = "<group>"; };
+		A8BE6AA82A46185A00E965A8 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		A8BE6AAC2A461E9000E965A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A8BE6AAE2A461E9600E965A8 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A8BE6AAF2A46206200E965A8 /* DateFormatterHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterHelperTests.swift; sourceTree = "<group>"; };
+		BAF8C89CE7E2A7DAE2C8AA95 /* Pods-LoxxHairAndMoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoxxHairAndMoreTests.debug.xcconfig"; path = "Target Support Files/Pods-LoxxHairAndMoreTests/Pods-LoxxHairAndMoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF7BB46AA7330EE34513022A /* Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8189BAA2A42FCDD002B7FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA342D1FC85755DF85C73F0 /* Pods_LoxxHairAndMore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8189BC02A42FCE2002B7FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FF474D97C3ADDE146AD6C1 /* Pods_LoxxHairAndMoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8189BCA2A42FCE2002B7FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7169B645E844E42746709987 /* Pods_LoxxHairAndMore_LoxxHairAndMoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54D91D4E02744A011AED0967 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E7DA460936F99DC24794E14 /* Pods_LoxxHairAndMore.framework */,
+				5827E71536C71BF72526FC88 /* Pods_LoxxHairAndMore_LoxxHairAndMoreUITests.framework */,
+				05C2A3A1962A126582634486 /* Pods_LoxxHairAndMoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E9CBD3A433E7BDD59F6E400 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				805F1C4F17EF7B4334D87783 /* Pods-LoxxHairAndMore.debug.xcconfig */,
+				9EB1BCC76CCC1D62DE1EEF61 /* Pods-LoxxHairAndMore.release.xcconfig */,
+				FF7BB46AA7330EE34513022A /* Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.debug.xcconfig */,
+				27F7FB31C8C86B3DE898AFAE /* Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.release.xcconfig */,
+				BAF8C89CE7E2A7DAE2C8AA95 /* Pods-LoxxHairAndMoreTests.debug.xcconfig */,
+				9BF67D8C9D7358094CC487A2 /* Pods-LoxxHairAndMoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8189BA42A42FCDD002B7FFD = {
+			isa = PBXGroup;
+			children = (
+				A8189BAF2A42FCDD002B7FFD /* LoxxHairAndMore */,
+				A8189BC62A42FCE2002B7FFD /* LoxxHairAndMoreTests */,
+				A8189BD02A42FCE2002B7FFD /* LoxxHairAndMoreUITests */,
+				A8189BAE2A42FCDD002B7FFD /* Products */,
+				8E9CBD3A433E7BDD59F6E400 /* Pods */,
+				54D91D4E02744A011AED0967 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8189BAE2A42FCDD002B7FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8189BAD2A42FCDD002B7FFD /* LoxxHairAndMore.app */,
+				A8189BC32A42FCE2002B7FFD /* LoxxHairAndMoreTests.xctest */,
+				A8189BCD2A42FCE2002B7FFD /* LoxxHairAndMoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8189BAF2A42FCDD002B7FFD /* LoxxHairAndMore */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A8C2A45EA3D00E965A8 /* Constants */,
+				A8BE6A942A45ED3100E965A8 /* SupportFiles */,
+				A8BE6A8D2A45EC9000E965A8 /* HoursOfOperation */,
+				A8BE6A8B2A45E95800E965A8 /* Storyboards */,
+				A8BE6A812A45E85F00E965A8 /* Tariffs */,
+				A8BE6A752A45E76E00E965A8 /* Menu */,
+				A8BE6A6E2A45E71C00E965A8 /* Information */,
+				A8BE6A602A45E66800E965A8 /* Home */,
+				A8BE6A572A45E5DA00E965A8 /* Utils */,
+				A8BE6A4C2A45E59E00E965A8 /* Helpers */,
+				A8BE6A472A45E53D00E965A8 /* Repository */,
+				A8BE6A402A45E4AA00E965A8 /* Appointment */,
+				A8189BB92A42FCE2002B7FFD /* Assets.xcassets */,
+				A8189BBE2A42FCE2002B7FFD /* Info.plist */,
+				A8BE6AAD2A461E9000E965A8 /* Localizable.strings */,
+			);
+			path = LoxxHairAndMore;
+			sourceTree = "<group>";
+		};
+		A8189BC62A42FCE2002B7FFD /* LoxxHairAndMoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6AAF2A46206200E965A8 /* DateFormatterHelperTests.swift */,
+				A8189BC72A42FCE2002B7FFD /* LoxxHairAndMoreTests.swift */,
+			);
+			path = LoxxHairAndMoreTests;
+			sourceTree = "<group>";
+		};
+		A8189BD02A42FCE2002B7FFD /* LoxxHairAndMoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8189BD12A42FCE2002B7FFD /* LoxxHairAndMoreUITests.swift */,
+				A8189BD32A42FCE2002B7FFD /* LoxxHairAndMoreUITestsLaunchTests.swift */,
+			);
+			path = LoxxHairAndMoreUITests;
+			sourceTree = "<group>";
+		};
+		A8BE6A402A45E4AA00E965A8 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A412A45E4AA00E965A8 /* AppointmentModel.swift */,
+				A8BE6A422A45E4AA00E965A8 /* AppointmentViewModel.swift */,
+				A8BE6A432A45E4AA00E965A8 /* AppointmentViewController.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		A8BE6A472A45E53D00E965A8 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A482A45E53D00E965A8 /* NetworkManager.swift */,
+				A8BE6A492A45E53D00E965A8 /* NetworkManagerModel.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		A8BE6A4C2A45E59E00E965A8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A4E2A45E59E00E965A8 /* MyLogger.swift */,
+				A8BE6A4F2A45E59E00E965A8 /* JSONNode.swift */,
+				A8BE6A502A45E59E00E965A8 /* MyErrorAlertBuilder.swift */,
+				A8BE6A512A45E59E00E965A8 /* MyLocalizer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A8BE6A572A45E5DA00E965A8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A592A45E5DA00E965A8 /* MyCallUtil.swift */,
+				A8BE6A4D2A45E59E00E965A8 /* DateFormatterHelper.swift */,
+				A8BE6A5A2A45E5DA00E965A8 /* MyTypeExtensionFunctions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A8BE6A602A45E66800E965A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A612A45E66800E965A8 /* HomeViewModel.swift */,
+				A8BE6A622A45E66800E965A8 /* HomeViewController.swift */,
+				A8BE6A632A45E66800E965A8 /* HomeModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A8BE6A6E2A45E71C00E965A8 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A6F2A45E71C00E965A8 /* InformationViewController.swift */,
+				A8BE6A702A45E71C00E965A8 /* InformationModel.swift */,
+				A8BE6A712A45E71C00E965A8 /* InformationViewModel.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		A8BE6A752A45E76E00E965A8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A992A45EE0400E965A8 /* SupportFiles */,
+				A8BE6A792A45E76E00E965A8 /* MenuViewModel.swift */,
+				A8BE6A7A2A45E76E00E965A8 /* MenuModel.swift */,
+				A8BE6A7B2A45E76E00E965A8 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		A8BE6A812A45E85F00E965A8 /* Tariffs */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A9E2A45EEEE00E965A8 /* SupportFiles */,
+				A8BE6A822A45E85F00E965A8 /* TariffsModel.swift */,
+				A8BE6A832A45E85F00E965A8 /* TariffsViewController.swift */,
+				A8BE6A862A45E85F00E965A8 /* TariffsViewModel.swift */,
+			);
+			path = Tariffs;
+			sourceTree = "<group>";
+		};
+		A8BE6A8B2A45E95800E965A8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A8189BB62A42FCDD002B7FFD /* Main.storyboard */,
+				A80859CD2A44C84B0011DC25 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A8BE6A8C2A45EA3D00E965A8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A582A45E5DA00E965A8 /* MyUIConstants.swift */,
+				A8BE6A5B2A45E5DA00E965A8 /* MyConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A8BE6A8D2A45EC9000E965A8 /* HoursOfOperation */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A8E2A45EC9000E965A8 /* HoursOfOperationViewModel.swift */,
+				A8BE6A8F2A45EC9000E965A8 /* HoursOfOperationViewController.swift */,
+				A8BE6A902A45EC9000E965A8 /* HoursOfOperationModel.swift */,
+			);
+			path = HoursOfOperation;
+			sourceTree = "<group>";
+		};
+		A8BE6A942A45ED3100E965A8 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6AA72A45FC4A00E965A8 /* Delegates */,
+				A8BE6AA52A45FBC000E965A8 /* LoxxHairAndMoreApp.swift */,
+				A8BE6AA12A45FB2300E965A8 /* ContentView.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A8BE6A992A45EE0400E965A8 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A9A2A45EE0400E965A8 /* MenuItemListView.swift */,
+				A8BE6A9B2A45EE0400E965A8 /* MenuItemTableViewCell.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A8BE6A9E2A45EEEE00E965A8 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A9F2A45EEEE00E965A8 /* ServiceTableViewCell.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A8BE6AA72A45FC4A00E965A8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE6A952A45ED3100E965A8 /* AppDelegate.swift */,
+				A8BE6A962A45ED3100E965A8 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8189BAC2A42FCDD002B7FFD /* LoxxHairAndMore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8189BD72A42FCE2002B7FFD /* Build configuration list for PBXNativeTarget "LoxxHairAndMore" */;
+			buildPhases = (
+				EFA5C19A7FC37BD078DCD89C /* [CP] Check Pods Manifest.lock */,
+				A8189BA92A42FCDD002B7FFD /* Sources */,
+				A8189BAA2A42FCDD002B7FFD /* Frameworks */,
+				A8189BAB2A42FCDD002B7FFD /* Resources */,
+				62491F44502EFBE9EC45E1E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoxxHairAndMore;
+			productName = LoxxHairAndMore;
+			productReference = A8189BAD2A42FCDD002B7FFD /* LoxxHairAndMore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8189BC22A42FCE2002B7FFD /* LoxxHairAndMoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8189BDA2A42FCE2002B7FFD /* Build configuration list for PBXNativeTarget "LoxxHairAndMoreTests" */;
+			buildPhases = (
+				DE87BBBC62D1988B1E244558 /* [CP] Check Pods Manifest.lock */,
+				A8189BBF2A42FCE2002B7FFD /* Sources */,
+				A8189BC02A42FCE2002B7FFD /* Frameworks */,
+				A8189BC12A42FCE2002B7FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8189BC52A42FCE2002B7FFD /* PBXTargetDependency */,
+			);
+			name = LoxxHairAndMoreTests;
+			productName = LoxxHairAndMoreTests;
+			productReference = A8189BC32A42FCE2002B7FFD /* LoxxHairAndMoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8189BCC2A42FCE2002B7FFD /* LoxxHairAndMoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8189BDD2A42FCE2002B7FFD /* Build configuration list for PBXNativeTarget "LoxxHairAndMoreUITests" */;
+			buildPhases = (
+				399D2A20DDDF802F69CA5DD0 /* [CP] Check Pods Manifest.lock */,
+				A8189BC92A42FCE2002B7FFD /* Sources */,
+				A8189BCA2A42FCE2002B7FFD /* Frameworks */,
+				A8189BCB2A42FCE2002B7FFD /* Resources */,
+				592EC2DE2B9183946FFAB761 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8189BCF2A42FCE2002B7FFD /* PBXTargetDependency */,
+			);
+			name = LoxxHairAndMoreUITests;
+			productName = LoxxHairAndMoreUITests;
+			productReference = A8189BCD2A42FCE2002B7FFD /* LoxxHairAndMoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8189BA52A42FCDD002B7FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A8189BAC2A42FCDD002B7FFD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A8189BC22A42FCE2002B7FFD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A8189BAC2A42FCDD002B7FFD;
+					};
+					A8189BCC2A42FCE2002B7FFD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A8189BAC2A42FCDD002B7FFD;
+					};
+				};
+			};
+			buildConfigurationList = A8189BA82A42FCDD002B7FFD /* Build configuration list for PBXProject "LoxxHairAndMore" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				nl,
+			);
+			mainGroup = A8189BA42A42FCDD002B7FFD;
+			productRefGroup = A8189BAE2A42FCDD002B7FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8189BAC2A42FCDD002B7FFD /* LoxxHairAndMore */,
+				A8189BC22A42FCE2002B7FFD /* LoxxHairAndMoreTests */,
+				A8189BCC2A42FCE2002B7FFD /* LoxxHairAndMoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8189BAB2A42FCDD002B7FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80859CE2A44C84B0011DC25 /* LaunchScreen.storyboard in Resources */,
+				A8BE6AAB2A461E9000E965A8 /* Localizable.strings in Resources */,
+				A8189BBA2A42FCE2002B7FFD /* Assets.xcassets in Resources */,
+				A8189BB82A42FCDD002B7FFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8189BC12A42FCE2002B7FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8189BCB2A42FCE2002B7FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		399D2A20DDDF802F69CA5DD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		592EC2DE2B9183946FFAB761 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests/Pods-LoxxHairAndMore-LoxxHairAndMoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62491F44502EFBE9EC45E1E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoxxHairAndMore/Pods-LoxxHairAndMore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoxxHairAndMore/Pods-LoxxHairAndMore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoxxHairAndMore/Pods-LoxxHairAndMore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE87BBBC62D1988B1E244558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoxxHairAndMoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA5C19A7FC37BD078DCD89C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoxxHairAndMore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8189BA92A42FCDD002B7FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BE6A972A45ED3100E965A8 /* AppDelegate.swift in Sources */,
+				A8BE6A722A45E71C00E965A8 /* InformationViewController.swift in Sources */,
+				A8BE6A802A45E76E00E965A8 /* MenuViewController.swift in Sources */,
+				A8BE6A642A45E66800E965A8 /* HomeViewModel.swift in Sources */,
+				A8BE6A552A45E59E00E965A8 /* MyErrorAlertBuilder.swift in Sources */,
+				A8BE6A882A45E85F00E965A8 /* TariffsViewController.swift in Sources */,
+				A8BE6A982A45ED3100E965A8 /* SceneDelegate.swift in Sources */,
+				A8BE6A932A45EC9000E965A8 /* HoursOfOperationModel.swift in Sources */,
+				A8BE6A4A2A45E53D00E965A8 /* NetworkManager.swift in Sources */,
+				A8BE6A452A45E4AA00E965A8 /* AppointmentViewModel.swift in Sources */,
+				A8BE6A662A45E66800E965A8 /* HomeModel.swift in Sources */,
+				A8BE6A562A45E59E00E965A8 /* MyLocalizer.swift in Sources */,
+				A8BE6A9D2A45EE0400E965A8 /* MenuItemTableViewCell.swift in Sources */,
+				A8BE6AA02A45EEEE00E965A8 /* ServiceTableViewCell.swift in Sources */,
+				A8BE6A652A45E66800E965A8 /* HomeViewController.swift in Sources */,
+				A8BE6A9C2A45EE0400E965A8 /* MenuItemListView.swift in Sources */,
+				A8BE6AA32A45FB2300E965A8 /* ContentView.swift in Sources */,
+				A8BE6A922A45EC9000E965A8 /* HoursOfOperationViewController.swift in Sources */,
+				A8BE6A442A45E4AA00E965A8 /* AppointmentModel.swift in Sources */,
+				A8BE6A5D2A45E5DB00E965A8 /* MyCallUtil.swift in Sources */,
+				A8BE6A4B2A45E53D00E965A8 /* NetworkManagerModel.swift in Sources */,
+				A8BE6A7F2A45E76E00E965A8 /* MenuModel.swift in Sources */,
+				A8BE6A462A45E4AA00E965A8 /* AppointmentViewController.swift in Sources */,
+				A8BE6A872A45E85F00E965A8 /* TariffsModel.swift in Sources */,
+				A8BE6A8A2A45E85F00E965A8 /* TariffsViewModel.swift in Sources */,
+				A8BE6A7E2A45E76E00E965A8 /* MenuViewModel.swift in Sources */,
+				A8BE6A532A45E59E00E965A8 /* MyLogger.swift in Sources */,
+				A8BE6A732A45E71C00E965A8 /* InformationModel.swift in Sources */,
+				A8BE6A742A45E71C00E965A8 /* InformationViewModel.swift in Sources */,
+				A8BE6A5E2A45E5DB00E965A8 /* MyTypeExtensionFunctions.swift in Sources */,
+				A8BE6A522A45E59E00E965A8 /* DateFormatterHelper.swift in Sources */,
+				A8BE6A542A45E59E00E965A8 /* JSONNode.swift in Sources */,
+				A8BE6A912A45EC9000E965A8 /* HoursOfOperationViewModel.swift in Sources */,
+				A8BE6AA62A45FBC000E965A8 /* LoxxHairAndMoreApp.swift in Sources */,
+				A8BE6A5C2A45E5DB00E965A8 /* MyUIConstants.swift in Sources */,
+				A8BE6A5F2A45E5DB00E965A8 /* MyConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8189BBF2A42FCE2002B7FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BE6AB02A46206200E965A8 /* DateFormatterHelperTests.swift in Sources */,
+				A8189BC82A42FCE2002B7FFD /* LoxxHairAndMoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8189BC92A42FCE2002B7FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8189BD42A42FCE2002B7FFD /* LoxxHairAndMoreUITestsLaunchTests.swift in Sources */,
+				A8189BD22A42FCE2002B7FFD /* LoxxHairAndMoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8189BC52A42FCE2002B7FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8189BAC2A42FCDD002B7FFD /* LoxxHairAndMore */;
+			targetProxy = A8189BC42A42FCE2002B7FFD /* PBXContainerItemProxy */;
+		};
+		A8189BCF2A42FCE2002B7FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8189BAC2A42FCDD002B7FFD /* LoxxHairAndMore */;
+			targetProxy = A8189BCE2A42FCE2002B7FFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8189BB62A42FCDD002B7FFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8189BB72A42FCDD002B7FFD /* Base */,
+				A8BE6AA82A46185A00E965A8 /* nl */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8BE6AAD2A461E9000E965A8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BE6AAC2A461E9000E965A8 /* en */,
+				A8BE6AAE2A461E9600E965A8 /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8189BD52A42FCE2002B7FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8189BD62A42FCE2002B7FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8189BD82A42FCE2002B7FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805F1C4F17EF7B4334D87783 /* Pods-LoxxHairAndMore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT3XU3HDLH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoxxHairAndMore/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LOXX;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.LOXXHairandMore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8189BD92A42FCE2002B7FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB1BCC76CCC1D62DE1EEF61 /* Pods-LoxxHairAndMore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT3XU3HDLH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoxxHairAndMore/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LOXX;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.LOXXHairandMore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8189BDB2A42FCE2002B7FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF8C89CE7E2A7DAE2C8AA95 /* Pods-LoxxHairAndMoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.LoxxHairAndMoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoxxHairAndMore.app/LoxxHairAndMore";
+			};
+			name = Debug;
+		};
+		A8189BDC2A42FCE2002B7FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF67D8C9D7358094CC487A2 /* Pods-LoxxHairAndMoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.LoxxHairAndMoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoxxHairAndMore.app/LoxxHairAndMore";
+			};
+			name = Release;
+		};
+		A8189BDE2A42FCE2002B7FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7BB46AA7330EE34513022A /* Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.LoxxHairAndMoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoxxHairAndMore;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A8189BDF2A42FCE2002B7FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F7FB31C8C86B3DE898AFAE /* Pods-LoxxHairAndMore-LoxxHairAndMoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.LoxxHairAndMoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoxxHairAndMore;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8189BA82A42FCDD002B7FFD /* Build configuration list for PBXProject "LoxxHairAndMore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8189BD52A42FCE2002B7FFD /* Debug */,
+				A8189BD62A42FCE2002B7FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8189BD72A42FCE2002B7FFD /* Build configuration list for PBXNativeTarget "LoxxHairAndMore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8189BD82A42FCE2002B7FFD /* Debug */,
+				A8189BD92A42FCE2002B7FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8189BDA2A42FCE2002B7FFD /* Build configuration list for PBXNativeTarget "LoxxHairAndMoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8189BDB2A42FCE2002B7FFD /* Debug */,
+				A8189BDC2A42FCE2002B7FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8189BDD2A42FCE2002B7FFD /* Build configuration list for PBXNativeTarget "LoxxHairAndMoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8189BDE2A42FCE2002B7FFD /* Debug */,
+				A8189BDF2A42FCE2002B7FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8189BA52A42FCDD002B7FFD /* Project object */;
+}

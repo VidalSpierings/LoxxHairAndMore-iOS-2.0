@@ -1,0 +1,44 @@
+"short" = "Kort";
+"long" = "Lang";
+
+"home" = "Home";
+"information" = "Informatie";
+"hours of operation" = "Openingstijden";
+"tariffs" = "Tarieven";
+"make an appointment" = "Maak een afspraak";
+
+// on-screen displayed strings
+
+"link cannot open" = "Kan adres niet weergeven";
+
+"link cannot open explained" = "Kan adres niet weergeven in een kaarten app of webbrowser. Herstart de app en//of probeer het later opnieuw";
+
+"cannot display page" = "Kan pagina niet weergeven";
+
+"cannot display page explained" = "Kan Facebook pagina niet weergeven in een app of webbrowser. Herstart de app en//of probeer het later opnieuw";
+
+"ok" = "Oké";
+
+// alert dialog standard strings
+
+"send email error title" = "Kan geen e-mail applicaties openen";
+
+"cant retrieve business hours title" = "Kan openingstijden niet ophalen";
+
+"unable to connect to internet" = "Geen internetverbinding";
+
+"internal database error" = "Interne database error";
+
+// alert dialog custom strings titles
+
+"unable to connect to internet description" = "Er is geen internetverbinding gedetecteerd, de meest recentelijk beschikbare informatie zal getoond worden.\n\nAlle data zal zich automatisch updaten zodra een internetverbinding herstelt is.";
+
+"cant retrieve business hours description" = "Meest recentelijk beschikbare openingstijden zullen getoond worden";
+
+"send email error message" = "Er kon geen e-mail applicatie gevonden worden, probeer het later opnieuw";
+
+"internal database cannot be opened error description" = "De interne database van de app kan door een onbekende reden niet worden geopend. Gelieve te proberen om de app opnieuw op te starten als er zich problemen voordoen";
+
+"internal database cannot be opened file path unavailable description" = "Het pad van het bestand van de interne database voor de app is door een onbekende reden niet beschikbaar. Gelieve te proberen om de app opnieuw op te starten als er zich problemen voordoen";
+
+// alert dialog custom strings messages

@@ -1,0 +1,31 @@
+PODS:
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - MMDrawerController (~> 0.6.0)
+  - ReachabilitySwift
+
+SPEC REPOS:
+  trunk:
+    - MMDrawerController
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: 4193123176283b8354a6840eef3c30d0360fd215
+
+COCOAPODS: 1.12.1
